@@ -61,7 +61,7 @@ services:
     container_name: adnan-spotify-api
     restart: always
     ports:
-      - "${HOST_PORT:-9888}:5000"
+      - "${HOST_PORT:-7777}:5000"
     env_file:
       - .env
     environment:
